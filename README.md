@@ -4,7 +4,7 @@
 
 **University: IIT Dhanbad**
 
-**Departemnt: Mineral And Metallurgical Engineering**
+**Departement: Mineral And Metallurgical Engineering**
 
 
 
@@ -26,7 +26,6 @@ Syncronus-chat-app is a full-stack real-time messaging application that enables 
 2. **Real-Time Messaging**
    - One-to-one chats with other users.
    - Group chats with multiple users.
-   - Typing indicators to show when a user is typing.
    
 3. **Search Users**
    - Functionality to search for users by name or username to initiate a chat.
@@ -35,30 +34,27 @@ Syncronus-chat-app is a full-stack real-time messaging application that enables 
    - Real-time notifications for new messages.
    
 5. **Manage Groups**
-   - Create groups, add or remove members from group chats.
-   
-6. **View User Profiles**
-   - View profiles of users within the app, including profile pictures and statuses.
+   - Create groups and add members to group chats.
 
-7. **Admin Functionality**
-   - Group admin can add/remove users from a group.
+6. **Admin Functionality**
+   - Group admin can add users to a group.
 
 #### 2.2 Non-Functional Requirements
 1. **Scalability**
-   - Must support a large number of concurrent users.
+   - Supports a large number of concurrent users.
    
 2. **Availability**
-   - High availability with minimal downtime (99.9% uptime).
+   - High availability with minimal downtime.
    
 3. **Security**
    - Data encryption for sensitive information like passwords.
    - Secure WebSocket communication.
    
 4. **Low Latency**
-   - Real-time messaging should have sub-second latency.
+   - Real-time messaging with sub-second latency.
    
 5. **Reliability**
-   - Ensure data consistency, particularly for message delivery.
+   - Data consistency, particularly for message delivery.
    
 6. **Data Retention**
    - Persist chat history for future reference.
@@ -88,9 +84,6 @@ Syncronus-chat-app is a full-stack real-time messaging application that enables 
   - Stores user information, messages, chat histories, and group information.
   - Uses collections for users, chat rooms (groups), and message logs.
 
-- **Notification Service:** WebSocket-based or Push Notifications
-  - Sends real-time notifications for message delivery, typing indicators, and group activities.
-
 - **Load Balancer:** **NGINX or HAProxy**
   - Distributes incoming traffic evenly across multiple instances of the backend server to ensure high availability.
 
@@ -102,11 +95,11 @@ Syncronus-chat-app is a full-stack real-time messaging application that enables 
    ```json
    {
      "_id": "ObjectId",
-     "username": "string",
+     "firstname": "string",
+     "lastname": "string",
      "email": "string",
      "password": "string (encrypted)",
      "profilePicture": "string (URL)",
-     "status": "string",
      "createdAt": "timestamp",
      "updatedAt": "timestamp"
    }
@@ -123,7 +116,6 @@ Syncronus-chat-app is a full-stack real-time messaging application that enables 
      "receiverId": "ObjectId (ref to Users or Groups)",
      "message": "string",
      "timestamp": "timestamp",
-     "isRead": "boolean"
    }
    ```
 ### 5. Scalability Considerations
