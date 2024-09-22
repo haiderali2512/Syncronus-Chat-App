@@ -1,10 +1,10 @@
 # Personal Information
 
-** Name: Haider Ali **
+**Name: Haider Ali**
 
-** University: IIT Dhanbad **
+**University: IIT Dhanbad**
 
-** Departemnt: Mineral And Metallurgical Engineering **
+**Departemnt: Mineral And Metallurgical Engineering**
 
 
 
