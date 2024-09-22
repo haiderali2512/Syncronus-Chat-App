@@ -183,7 +183,7 @@ git clone https://github.com/haiderali2512/Syncronus-Chat-App
 cd Syncronus-chat-app
 ```
 
-###Install Dpendencies
+### Install Dpendencies
 ```bash
 cd client
 npm install
