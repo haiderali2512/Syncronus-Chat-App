@@ -44,3 +44,37 @@ npm start
 cd client
 npm run dev
 ```
+
+
+## Features
+
+- **Authentication**
+- 
+  ![Authentication](./Images/Login.png)
+
+  ![SignUp](./Images/SignUp.png)
+
+  ![Profile](./Images/Profile-setup.png)
+
+  Secure user authentication and registration.
+
+- **Search Users**
+- 
+  ![Search Users](./Images/Find-profile.png)
+  
+  Easily search for users to start new conversations.
+
+- **Create Group Chats**
+  
+  ![Group Chat](./Images/Create-group.png)
+
+  ![Group Chat](./Images/new-group.png)
+
+  ![Group Chat](./Images/group-chat.png)
+  
+  Create and manage group conversations.
+
+  
+## Made By
+
+[**@Haider**](https://github.com/haiderali2512)
