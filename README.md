@@ -11,6 +11,8 @@
 
 # System Design Document: Syncronus-chat-app
 
+![System Design Architecture](./Images/Syncronus-Chat-App.png)
+
 ### 1. Overview
 Syncronus-chat-app is a full-stack real-time messaging application that enables users to communicate through one-to-one chats, group chats, and notifications. The system employs Socket.io for real-time communication, ensuring low-latency interactions. User data and messages are securely stored in a MongoDB database.
 
