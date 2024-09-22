@@ -4,7 +4,7 @@
 
 **University: IIT Dhanbad**
 
-**Departement: Mineral And Metallurgical Engineering**
+**Department: Mineral And Metallurgical Engineering**
 
 
 
