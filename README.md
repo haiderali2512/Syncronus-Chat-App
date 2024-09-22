@@ -10,7 +10,7 @@ Syncronus-chat-app is a Full Stack Chatting App that uses Socket.io for real-tim
 
 ## Demo
 
-[Syncronus-chat-app Demo](./Images/Main-page.png)
+![Syncronus-chat-app Demo](./Images/Main-page.png)
 
 ## Run Locally
 
